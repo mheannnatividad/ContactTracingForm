@@ -28,3 +28,13 @@ C:\Users\Computer\Desktop\OOP\contactTracingForm\contactTracing\obj\Debug\contac
 C:\Users\Computer\Desktop\OOP\contactTracingForm\contactTracing\obj\Debug\contactTracing.csproj.CoreCompileInputs.cache
 C:\Users\Computer\Desktop\OOP\contactTracingForm\contactTracing\obj\Debug\contactTracing.exe
 C:\Users\Computer\Desktop\OOP\contactTracingForm\contactTracing\obj\Debug\contactTracing.pdb
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\bin\Debug\contactTracing.exe.config
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\bin\Debug\contactTracing.exe
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\bin\Debug\contactTracing.pdb
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\obj\Debug\contactTracing.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\obj\Debug\contactTracing.Form1.resources
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\obj\Debug\contactTracing.Properties.Resources.resources
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\obj\Debug\contactTracing.csproj.GenerateResource.cache
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\obj\Debug\contactTracing.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\obj\Debug\contactTracing.exe
+C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\contactTracing\obj\Debug\contactTracing.pdb

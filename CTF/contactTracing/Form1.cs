@@ -23,7 +23,7 @@ namespace contactTracing
         private void button1_Click(object sender, EventArgs e)
         {
             String path = txtBoxFN.Text + ".txt";
-            txtfile = File.CreateText(@"C:\Users\Computer\source\repos\contactTracing\Data\" + path);
+            txtfile = File.CreateText(@"C:\Users\Computer\Desktop\OOP\ContactTracingForm\CTF\Data\" + path);
             txtfile.WriteLine("Full Name:" + txtBoxFN.Text);
             txtfile.WriteLine("Phone Number:" + txtBoxNumber.Text);
             txtfile.WriteLine("Telephone Number:" + textBoxTel.Text);
@@ -41,6 +41,28 @@ namespace contactTracing
                 {
                     txtfile.WriteLine(item.ToString());
                 }
+            }
+            txtfile.Write("Covid Vaccine: ");
+            if (radioButton1.Checked)
+            {
+                txtfile.WriteLine(radioButton1.Text);
+            }
+            else if (radioButton2.Checked)
+            {
+                txtfile.WriteLine(radioButton2.Text);
+            }
+            else
+            {
+                txtfile.WriteLine(radioButton3.Text);
+            }
+            txtfile.Write(groupBox4.Text +"");
+            if (radioButtonYes.Checked)
+            {
+                txtfile.Write(radioButtonYes.Text);
+            }
+            else
+            {
+                txtfile.Write(radioButtonNo.Text);
             }
             txtfile.Close();
         }
@@ -61,9 +83,23 @@ namespace contactTracing
             }
         }
 
-        private void radioButtonYes_CheckedChanged(object sender, EventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (checkBox1.Checked == false)
+            {
+                button1.Enabled = false;
+            }
+            else
+            {
+                button1.Enabled = true;
+            }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+        }
+
+
     }
 }
